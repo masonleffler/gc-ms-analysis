@@ -1261,7 +1261,7 @@ for annotation in annotation_settings:
     # ========================================================
     # Automatic gray label position
     # ========================================================
-    gray_text_gap = 0.05
+    gray_text_gap = 0.03
 
     if annotation["anchor"] == "left":
         shifted_label_x = (
