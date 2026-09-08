@@ -848,7 +848,7 @@ else:
 
 gray_elbow_y = (
     highest_trace_baseline
-    + 0.1 * highest_trace_baseline
+    + 0.1 * highest_trace_baseline + 2
 )
 
 
