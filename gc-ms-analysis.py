@@ -182,7 +182,7 @@ st.sidebar.subheader(
 )
 
 uploaded_files = st.sidebar.file_uploader(
-    "Upload GC CSV files in the order you want them displayed. The bottom trace will correspond to the first file. You'll be able to edit this later, but you'll lose the default colors. The program uses .csv files with data points starting at the third row and the 2nd and third columns; when exporting from MassHunter Qualitative, this is the default format of the .csv file. This package is optimized for samples containing internal standards such that the exported files are normalized to the highest peak in each chromatogram and y values fall between 0 and 100.",
+    "Upload GC CSV files in the order you want them displayed. The bottom trace will correspond to the first file. The program uses .csv files with data points starting at the third row and the 2nd and third columns; when exporting from MassHunter Qualitative, this is the default format of the .csv file. This package is optimized for samples containing internal standards such that the exported files are normalized to the highest peak in each chromatogram and y values fall between 0 and 100.",
     type=["csv"],
     accept_multiple_files=True
 )
